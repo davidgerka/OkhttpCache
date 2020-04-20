@@ -1,6 +1,7 @@
 # OkhttpCacheLib
 
 该库可轻松实现不同接口拥有不同的缓存策略，原理可以查看该贴：https://www.jianshu.com/p/dbda0bb8d541
+
 感谢作者大大的分享，作者分析总结得很简单明了，在这个基础上，该库运用了添加请求参数的方式来实现不同接口的缓存策略
 
 ## 可以实现的功能：
@@ -22,19 +23,19 @@ dependencies {
 }
 ```
 
-## 如何使用？请查看demo代码
+## 如何使用？请查看app代码
 
 
 
 ## 混淆配置（retrofit2+okhttp3+rxjava2）
+```
 -dontwarn com.gerka.okhttpcachelib.**
 -keep class com.gerka.okhttpcachelib.** { *; }
-
+```
 
 
 
 ## License
-
 ```
 The MIT License (MIT)
 
