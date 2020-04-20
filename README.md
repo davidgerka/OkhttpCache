@@ -11,10 +11,11 @@
 ## 添加该库：
 ```
 allprojects {
-		repositories {
-			maven { url 'https://jitpack.io' }
-		}
-	}
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
 ```
 dependencies {
     implementation 'com.github.davidgerka:OkhttpCache:Tag'
@@ -32,7 +33,7 @@ dependencies {
 
 
 
-### License
+## License
 
 ```
 The MIT License (MIT)
